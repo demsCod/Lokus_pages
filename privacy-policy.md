@@ -1,6 +1,6 @@
 # Privacy Policy – Lokus
 
-Last updated: [DATE]
+Last updated: January 18, 2026
 
 ## 1. Introduction
 Lokus is a mobile application that analyzes speech fluency and provides users with performance scores based on spoken audio.
