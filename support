@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support Lokus - Aide et Ressources</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; color: #333; background-color: #f4f4f4; }
+        header { background: #007bff; color: white; text-align: center; padding: 2rem 0; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+        section { background: white; margin-bottom: 2rem; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h1, h2 { color: #007bff; }
+        ul { list-style-type: none; padding: 0; }
+        ul li { background: #e9ecef; margin: 0.5rem 0; padding: 1rem; border-radius: 5px; }
+        a { color: #007bff; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .faq-item { margin-bottom: 1rem; }
+        .faq-item summary { cursor: pointer; font-weight: bold; }
+        form { display: flex; flex-direction: column; }
+        input, textarea { margin-bottom: 1rem; padding: 0.5rem; border: 1px solid #ddd; border-radius: 4px; }
+        button { background: #007bff; color: white; padding: 0.75rem; border: none; border-radius: 4px; cursor: pointer; }
+        button:hover { background: #0056b3; }
+        @media (max-width: 768px) { .container { padding: 1rem; } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Support Lokus</h1>
+        <p>Bienvenue ! Trouvez de l'aide pour notre application de gestion de terrain ou de notes.</p>
+    </header>
+    
+    <div class="container">
+        
+        <section>
+            <h2>FAQ Courantes</h2>
+            <details class="faq-item">
+                <summary>Problème de synchronisation ?</summary>
+                <p>Vérifiez votre connexion et consultez les dépannages dans les docs.</p>
+            </details>
+
+        </section>
+
+        
+
+        <section>
+            <h2>Contact Direct</h2>
+            <form action="https://formspree.io/f/votre-email" method="POST"> <!-- Remplacez par votre service (Formspree gratuit) -->
+                <input type="text" name="nom" placeholder="Votre nom" required>
+                <input type="email" name="email" placeholder="Votre email" required>
+                <textarea name="message" placeholder="Dites-nous en plus..." rows="5" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+            <p>Ou contactez-nous via <a href="mailto:mdembeletech@gmail.com">mdembeletech@gmail.com</a>.</p>
+        </section>
+
+        <section style="text-align: center; font-size: 0.9em; color: #666;">
+            <p>&copy; 2026 Lokus. Hébergé sur <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>. [web:6]</p>
+        </section>
+    </div>
+</body>
+</html>
